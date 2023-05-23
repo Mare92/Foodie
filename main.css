@@ -1,0 +1,338 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: cursive, sans-serif,Arial, Helvetica, sans-serif;
+}
+.header{
+    position: fixed;
+    display: flex;
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+    color: white;
+}
+h1{
+    margin-left: 50px;
+}
+nav > ul > li{
+    display: inline-block;
+    padding-right: 50px;
+}
+nav > ul > li > a{ 
+    color: white;
+    transition: 0.3s;
+}
+nav > ul > li > a:hover{
+    color: rgb(236, 179, 109);
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+main{
+    background-color:azure;
+}
+main > header{
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 150px;
+    text-shadow: 2px 2px 3px black;
+    color: white;
+    background-attachment: fixed;
+}
+main > header > p{
+    padding:50px 0 80px 0;
+   
+}
+main > header >a{
+   padding-top: 100px;
+background-color:rgba(3, 3, 119, 0.7);
+ padding: 20px 30px;
+ border-radius: 40px;
+ transition: 0.3s;
+ color: white;
+}
+main > header >a:hover{
+    color: rgb(236, 179, 109);
+    font-size: 1em;
+    transition: 0.3s;
+    background-color:rgb(3, 3, 119);
+}
+h2 , h3{
+    letter-spacing: 5px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.3em;
+}
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+   margin: 100px auto;
+}
+#menu > article{
+    width: 400px;
+    height: 500px;
+    margin:50px auto;
+    border-radius: 50px 50px 50px 50px;
+    background-color:azure;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.12) 0px 2px 16px 0px;
+}
+.border-r{
+    border-radius: 50px 50px 0 0;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+#menu > article > section{
+    display:grid;
+    grid-template: "a b"
+                   "c c";
+margin-top: 15px;
+}
+.name-food{
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 1.3em;
+    grid-area: "a";
+}
+.price{
+    font-size: 1.3em;
+    color: rgb(102, 102, 102);
+    grid-area: "b";
+    margin-right: 10px;
+}
+.food-description{
+    grid-area: "c";
+    color: rgb(102, 102, 102);
+    margin: 10px 0px 0px 20px;
+}
+
+.product-1 > figure{
+    background-image: url(https://images.unsplash.com/photo-1626074353765-517a681e40be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+}
+.product-2 > figure{
+    background-image: url(https://images.unsplash.com/photo-1593179241557-bce1eb92e47e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+}
+.product-3 > figure{
+    background-image: url(https://images.unsplash.com/photo-1606491956689-2ea866880c84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1921&q=80);
+}
+.product-4 > figure{
+    background-image: url(https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+}
+.product-5 > figure {
+    background-image: url(https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1899&q=80);
+}
+.product-6 > figure {
+    background-image: url(https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+}
+.about-name {
+    background-color: white;
+    padding: 50px 0px 50px 0px ;
+}
+#about-us{
+    background-color: white;
+    display:flex;
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.cook-description{
+    width: 50%;
+    align-self: center;
+    font-size: 1.5em;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+#about-us > .cook-picture{
+    display: flex;
+    height:100%;
+    width: 50%;
+    
+}
+.cook-picture > figure {
+    margin: 0 auto;
+    width: 650px;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/chef-making-ok-sign-white-background_1368-2804.jpg?w=2000);
+    background-size: cover;
+}
+
+.button{
+    color: white;
+    background-color:rgb(53, 53, 165);
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.1em; 
+    margin-top: 30px;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+.button:hover , .button-order:hover{
+    color: rgb(236, 179, 109);
+    transition: 0.3s;
+    background-color:rgb(7, 7, 104);
+}
+#order{
+     width: 100%;
+    height: 800px;
+}
+fieldset{
+    margin: auto;
+    border-radius: 40px;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.12) 0px 2px 16px 0px;
+}
+form {
+    width: 40%;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 50px;
+    border: none;
+    height: 500px;
+}
+label{
+    display: block; 
+}
+input , textarea{
+    width: 70%;
+    padding: 15px;
+    margin: 30px 15%;
+    border-radius: 30px;
+    text-align: center;
+       border: 1px solid rgb(161, 159, 159);
+}
+.button-order{
+    color: white;
+    background-color:rgb(53, 53, 165);
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.1em; 
+    margin-top:0px;
+    transition: 0.3s;
+}
+
+footer{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+.checkbtn{
+    padding-right: 30px;
+    font-size: 30px;
+    color: white;
+    float: right;
+    display: none;
+    line-height: 80px;
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+@media screen and ( min-width: 1680px ){
+    body {
+        zoom: 110%
+    }
+}
+@media screen and ( max-width: 1280px ) {
+    body {
+        font-size: 0.9em;
+        #order > form {
+            width: 80%;
+            margin-right: 10%;
+            margin-left: 10%;
+            margin-top: 50px;
+            border: none;
+            height: 500px;
+        }
+            
+    }
+}
+
+
+@media screen and ( max-width: 888px ) {
+    *{
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    body{
+       
+        #order > form > fieldset{
+            border-radius: 0;
+        }
+
+      #order > form {
+        width: 100%;
+        margin-right: 0%;
+        margin-left: 0%;
+        margin-top: 50px;
+        border: none;
+        height: 300px;
+    }
+    #about-us{
+        background-color: white;
+        display:flex;
+        width: 100%;
+        height: 450px;
+        text-align: center;
+        padding-bottom: 30px;
+        letter-spacing: 2px;
+
+    }
+    .cook-description{
+        width: 100%;
+        font-size: 16px;
+        height: 400px;
+        padding: 20px;
+        background-image: url(https://img.freepik.com/free-photo/chef-making-ok-sign-white-background_1368-2804.jpg?w=2000);
+        background-size: cover;
+    }
+    
+    #about-us > .cook-picture{
+        display: none;
+    }
+
+    }
+    .checkbtn{
+       display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 50%;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 30px;
+    }
+    nav ul li a{
+        font-size: 1.5em;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
